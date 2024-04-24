@@ -11,7 +11,7 @@ Our objective is to develop a Bidirectional LSTM (Long Short-Term Memory) model 
 Bidirectional recurrent neural networks employ two hidden layers that process input sequences in both forward and backward directions, contributing to a more comprehensive understanding of the sequential data and enhancing the model's performance in tasks like sequence labeling.
 
 ## DESIGN STEPS
-
+```
 ### STEP 1:Import the necessary packages.
 
 ### STEP 2:Read the dataset and fill the null values using forward fill.
@@ -25,7 +25,7 @@ Bidirectional recurrent neural networks employ two hidden layers that process in
 ### STEP 6:We build the model using Input, Embedding, Bidirectional LSTM, Spatial Dropout, Time Distributed Dense Layers.
 
 ### STEP 7:We compile the model to fit the train sets and validation sets.
-
+```
 
 
 ## PROGRAM
